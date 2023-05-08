@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<html>
+    <head>
+        <style>
+        </style>
+    </head>
+        <body>
+            <img src="{% static 'gallery/images/country1.jpg' %}" alt="country image" width="20%" height="200px" >
+            <img src="{% static 'gallery/images/country2.jpg' %}" alt="country image" width="20%" height="200px">
+            <img src="{% static 'gallery/images/country3.jpg' %}" alt="country image" width="20%" height="200px">
+            <img src="{% static 'gallery/images/country4.jpg' %}" alt="country image" width="20%" height="200px">
+        </body>
+</html>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<html>
+    <head>
+        <style>
+        </style>
+    </head>
+        <body>
+            <img src="{% static 'gallery/images/prodcut1.jpg' %}" alt="product image" width="20%" height="200px" >
+            <img src="{% static 'gallery/images/prodcut2.jpg' %}" alt="product image" width="20%" height="200px">
+            <img src="{% static 'gallery/images/product3.jpg' %}" alt="product image" width="20%" height="200px">
+            <img src="{% static 'gallery/images/product4.jpg' %}" alt="product image" width="20%" height="200px">
+        </body>
+</html>
+{% endblock %}
